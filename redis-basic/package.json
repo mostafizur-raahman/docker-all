@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "redis": "^4.6.13"
+  },
+  "type": "module"
+
+}
