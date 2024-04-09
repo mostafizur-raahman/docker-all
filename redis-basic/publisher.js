@@ -47,7 +47,9 @@ async function main() {
     const data = "Mostafiz " + date.toString();
 
     const val = await publishToRedis(data);
-    console.log(val);
+    const val1 = await publishToRedis(data);
+
+    console.log(val, val1);
 
     // await deleteRedisCache()
 }
